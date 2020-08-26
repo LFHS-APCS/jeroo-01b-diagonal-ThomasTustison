@@ -15,13 +15,26 @@ public class Main implements Directions {
     public static void main(String[] args) {
         new JerooGUI();
         runJerooCode();
+        
     }
-
-    /**
-     * Put your main Jeroo code here.
-     */
-    public static void runJerooCode() {
+   
+      
+    
      
+    public static void runJerooCode() {
+     Jeroo Jerry = new Jeroo(0,0,5);
+Jerry.plant();
+Jerry.hop();
+Jerry.turn(LEFT);
+Jerry.turn(LEFT);
+Jerry.turn(LEFT);
+Jerry.hop();
+Jerry.plant();
+Jerry.hop();
+Jerry.turn(LEFT);
+Jerry.hop();
+Jerry.plant();
+Jerry.hop();
     }
 
 }
