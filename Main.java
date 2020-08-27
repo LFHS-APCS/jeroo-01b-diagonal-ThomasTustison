@@ -35,6 +35,14 @@ Jerry.turn(LEFT);
 Jerry.hop();
 Jerry.plant();
 Jerry.hop();
+Jerry.turn(LEFT);
+Jerry.turn(LEFT);
+Jerry.turn(LEFT);
+Jerry.hop();
+Jerry.plant();
+Jerry.turn(LEFT);
+Jerry.hop();
+
     }
 
 }
